@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Lobster");
+
+:root{
+  --base-color:#fff;
+  --primary-color: #191645;
+  --secondary-color: #43C6AC;
+  --background-color: #E0E7FF;
+}
+
+html{
+  scroll-behavior: smooth;
+
+}
+
+body{
+  margin: 0;
+  width: 100%;
+  background-color: #F5FEFD;
+  font-family: Poppins;
+}
