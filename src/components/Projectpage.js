@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 import "../styles/projectpage.css";
 
 function ProjectPage({ myEmail }) {
@@ -470,6 +471,7 @@ function ProjectPage({ myEmail }) {
               arrow_forward
             </i>
           </span>
+          <NavLink style={{textDecoration: "none", color: "red"}} id="navSpan" exact to="/">
           <span>
             <i className="material-symbols-outlined">logout</i>
             <h4>Log out</h4>
@@ -477,6 +479,7 @@ function ProjectPage({ myEmail }) {
               arrow_forward
             </i>
           </span>
+          </NavLink>
         </div>
       </header>
       {isLoading && (

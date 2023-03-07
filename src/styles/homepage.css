@@ -11,6 +11,10 @@
   margin-left: 5%;
 }
 
+#navSign{
+  text-decoration: none;
+}
+
 #website-name span {
   color: var(--secondary-color);
   /* font-family: Lobster; */
@@ -170,7 +174,8 @@ section{
   display: flex;
   justify-content: space-evenly;
   position: absolute;
-  right: 0;
+  right: 9.5em;
+  top : 2em;
   /* background-color: antiquewhite; */
 }
 

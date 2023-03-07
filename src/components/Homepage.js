@@ -38,10 +38,12 @@ function Homepage() {
               platform offers a seamless way to create and customize your own
               portfolio.
             </p>
+            <NavLink style={{textDecoration: "none"}} exact to="/sign">
             <button>
               Start a new Project Today
               <i className="material-icons">arrow_forward</i>
             </button>
+            </NavLink>
           </div>
           <div>
             <img id="header-img" src={Header_image}></img>
@@ -57,20 +59,20 @@ function Homepage() {
             </h1>
           </span>
           <div className="service">
-            {/* <div id="services-offered">
+            <div id="services-offered">
               <div className="service-card right">
                 <h3>01</h3>
                 <p>Easily create and update your projects</p>
               </div>
               <div className="service-card center">
                 <h3>02</h3>
-                <p>Work showcases</p>
+                <p>Project showcases</p>
               </div>
               <div className="service-card left">
                 <h3>03</h3>
                 <p>Skills showcases</p>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
         <span id="pre-test"></span>
